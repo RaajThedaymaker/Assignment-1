@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a = 11;
+	int b = 5;
+	int c;
+
+	cout << "a + b is :" << a+b << endl; //11+5
+
+	cout << "a - b is :" << a-b << endl; //11-5
+
+	cout << "a * b is :" << a*b << endl; //11*5
+
+	cout << "a / b is :" << a/b << endl; //11/5
+
+	cout << "a % b is :" << a%b << endl; //11%5
+
+	return 0;
+
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a = 11;
+	int b = 5;
+
+	cout << "a=11, b=5" << endl;
+	if (a == b) {
+		cout << "a == b is true" << endl;
+	}
+	else {
+		cout << " a == b is false" << endl;
+	}
+
+	if (a < b) {
+		cout << "a < b is true" << endl;
+	}
+	else {
+		cout << "a < b is false" << endl;
+	}
+
+	return 0;
+}
+#include <iostream> 
+using namespace std;
+int main()
+{
+	int a = 5, b = 2, c = 6, d = 4;
+	if (a == b && c > d)
+		cout << "a equals to b AND c is greater than d\n";
+	else
+		cout << "AND operation returned false\n";
+
+	if (a == b || c > d)
+		cout << "a equals to b OR c is greater than d\n";
+	else
+		cout << "Neither a is equal to b nor c is greater than d\n";
+
+	if (!b)
+		cout << "b is zero\n";
+	else
+		cout << "b is not zero";
+
+	return 0;
+}
+
